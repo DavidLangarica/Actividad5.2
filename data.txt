@@ -1,0 +1,4 @@
+Número de procesadores: 8
+T1: 6.08097 segundos
+Tp: 1.52 segundos
+Sp: 6.08097/1.52 = 4.000638157894736

@@ -64,8 +64,8 @@ int main() {
     clock_t end = clock();
     double time_span = static_cast<double>(end - start) / CLOCKS_PER_SEC;
 
-    cout << "Suma de primos: " << sum << endl;
-    cout << "Tiempo: " << time_span << " segundos." << endl;
+    cout << "Suma de primos paralelo: " << sum << endl;
+    cout << "Tiempo paralelo: " << time_span << " segundos." << endl;
 
     return 0;
 }

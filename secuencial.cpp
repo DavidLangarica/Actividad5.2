@@ -34,8 +34,8 @@ int main() {
     high_resolution_clock::time_point end = high_resolution_clock::now();
     duration<double> time_span = duration_cast<duration<double>>(end - start);
 
-    cout << "Suma de primos: " << sum << endl;
-    cout << "Tiempo: " << time_span.count() << " segundos." << endl;
+    cout << "Suma de primos secuencial: " << sum << endl;
+    cout << "Tiempo secuencial: " << time_span.count() << " segundos." << endl;
 
     return 0;
 }
